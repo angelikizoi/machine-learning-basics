@@ -1,2 +1,60 @@
 /data.txt
 /Exercises.ipynb
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+*.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook output and metadata
+*.ipynb~*
+
+# Ignore compiled Python files
+*.so
+
+# Ignore package files and logs
+*.log
+*.bak
+*.swp
+*.pid
+*.tar.gz
+*.zip
+
+# Ignore Virtual Environment or Conda Environment folders
+env/
+venv/
+*.venv
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Ignore MacOS system files
+*.DS_Store
+
+# Ignore Windows system files
+*.stackdump
